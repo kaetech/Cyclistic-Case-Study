@@ -9,8 +9,8 @@ Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html
 Data License: [License](https://divvybikes.com/data-license-agreement)
 
 SQL Queries:
-
 [Data Combining](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Combining.sql)
+[Data Cleaning](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql)
 
 Data Visualizations:
 
@@ -40,5 +40,6 @@ The 12 csv files are loaded as tables into a dataset called cyclistic_2022 and a
 ![Field names and data types for the combined table called annual_data](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20002041.png)
 
 ### Data Cleaning
+SQL Query: [Data Cleaning](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql)
 #### Observations 
 Upon preview of the data I immediately noticed that there were numerous null values in multiple columns. I ran a query to delete all rows wiht nulls and ran another query to chech for nulls in case something was missed. This step removed 1,298,357 rows. I then checked to ensure accuracy of rows in the rideable_type column to cofirm there were only three rideable types and the member_casual column to confirm only two types of members. Next I added a column for ride length which allows for a more thoroguh analysis and removal of trips that lasted less than one minute or more than a day. This step removed 44,797 rows for a total of 1,343,154 rows removed as a result of the cleaning process. 
