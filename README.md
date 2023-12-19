@@ -2,7 +2,12 @@
 Course: [Google Data Analytics Capstone: Complete a Case study](https://www.coursera.org/learn/google-data-analytics-capstone)
 
 ## Introduction
-This case study is a part of the Google Data Analytics Professional Certificate. In this project I will be assuming the role of a junior data analyst on the marketing team of a fictional company called Cyclistic. In order to address the business questions assigned to me I will be employing the steps of the data analysis process [Ask](## Ask), Prepare, Process, Analyze, Share, and Act) to put together and share my insights. 
+This case study is a part of the Google Data Analytics Professional Certificate. In this project I will be assuming the role of a junior data analyst on the marketing team of a fictional company called Cyclistic. In order to address the business questions assigned to me I will be employing the steps of the data analysis process Ask, Prepare, Process, Analyze, Share, and Act) to put together and share my insights. 
+### Code and Data Links
+Data Source:
+Data License:
+SQL Queries:
+Data Visualizations:
 ## Background and Scenario 
 Cyclistic is a Chicago based bike share program that offers over 5,800 bicycles and 600 docking stations. What sets Cyclistic apart from its competitors is their inclusive variety of bikes for those unable to use a standard two-wheeled bike. This line includes reclining bikes, hand tricycles, and cargo bikes. However, the majority of users make use of our traditional bikes roughly 8% of users opt for the assistive options and about 30 percent of our total users use our bikes to commute to work daily. 
 Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. 
