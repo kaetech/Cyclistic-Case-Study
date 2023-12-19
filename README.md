@@ -5,10 +5,15 @@ Course: [Google Data Analytics Capstone: Complete a Case study](https://www.cour
 This case study is a part of the Google Data Analytics Professional Certificate. In this project I will be assuming the role of a junior data analyst on the marketing team of a fictional company called Cyclistic. In order to address the business questions assigned to me I will be employing the steps of the data analysis process Ask, Prepare, Process, Analyze, Share, and Act) to put together and share my insights. 
 ### Code and Data Links
 Data Source:
+
 Data License:
+
 SQL Queries:
+
 [Data Combining](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Combining.sql)
+
 Data Visualizations:
+
 ## Background and Scenario 
 Cyclistic is a Chicago based bike share program that offers over 5,800 bicycles and 600 docking stations. What sets Cyclistic apart from its competitors is their inclusive variety of bikes for those unable to use a standard two-wheeled bike. This line includes reclining bikes, hand tricycles, and cargo bikes. However, the majority of users make use of our traditional bikes roughly 8% of users opt for the assistive options and about 30 percent of our total users use our bikes to commute to work daily. 
 Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members. 
@@ -33,3 +38,7 @@ SQL Query: [Data Combining](https://github.com/kaetech/Cyclistic-Case-Study/blob
 The 12 csv files are loaded as tables into a dataset called cyclistic_2022 and another table named “annual_data” which will house all 12 csv files adding up to 5,667,717 rows of data. After combining the data checked the table schema to ensure there were no discrepancies with column naming conventions or file types. 
 
 ![Field names and data types for the combined table called annual_data](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20002041.png)
+
+### Data Cleaning
+#### Observations 
+Upon preview of the data I immediately noticed that there were numerous null values in multiple columns. I ran a query to delete all rows wiht nulls and ran another query to chech for nulls in case something was missed. This step removed 1,298,357 rows. I then checked to ensure accuracy of rows in the rideable_type column to cofirm there were only three rideable types and the member_casual column to confirm only two types of members. Next I added a column for ride length which allows for a more thoroguh analysis and removal of trips that lasted less than one minute or more than a day. This step removed 44,797 rows for a total of 1,343,154 rows removed as a result of the cleaning process. 
