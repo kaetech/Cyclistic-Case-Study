@@ -45,4 +45,7 @@ Upon preview of the data I immediately noticed that there were numerous null val
 ## Analyze and Share
 ####Analysis question: How do annual members and casual riders use Cyclistic bikes differently?
 To start off the two groups are compared by bike type usage. 
+
 ![Pie charts displaying bike type usage between casual riders and members]
+
+![Line Graph showing how many trips members and casual riders took throughout the year 2022](images/Screenshot 2023-12-14 014643.png)
