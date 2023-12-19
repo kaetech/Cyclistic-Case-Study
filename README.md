@@ -63,3 +63,21 @@ Now to take a look at trip duration over months and days of the week.
 Interestingly enough we see that casual riders spend significantly more time on trips than members. With peak ride averages in the spring months and weekends. Which would suggest a trend of casual riders using the bikes for leisurely purposes in their spare time. Member usage is fairly consistent across the board with slightly longer trips in the summer months and on the weekends but only by a few minutes. Suggesting that members are more intentional and have some sort of routine with their rides which tracks with the other data that we have come across so far. 
 
 Lastly the locations of starting and ending stations and how frequently they are used will be analyzed for key differences.
+
+![Starting and ending location bike rip map](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-13%20184424.png)
+
+Causal riders start their rides almost exclusively along the coast line where there are a number of attractions including but not limited to museums, beaches, parks, and harbor points. Members start their rides away from the coast line in the vicinity of academic institutions, churches, restaurants, hospitals, train stations, etc. The same trends are seen with end station popularity. There is some variance compared to the starting stations considering the number of points on the map however we see more of the same. These findings further reinforce the narrative that data has been building. That casual riders use bikes for leisurely activities and members rely on the bikes for more routine and daily activities. 
+
+
+| Members | Casual Riders |
+| --- | --- |
+| Make up the majority of Cyclitic users accounting for 59.7% of rides | Ride mostly during the spring and summer months, with some rides during the week but more rides on the weekend | 
+| Ride bikes more consistently especially during the week but spend less time per ride, about half the time of casual riders | Use bikes less frequently but spend almost twice as long on each ride |
+| Start and end their trips near academic institutions, hospitals, residential commercial areas | Start and end their trips along the Chicago coastline frequenting beaches, parks, museums, and other tourist attractions |
+
+## Act
+Considering the key differences the data has revealed between members and casual riders here are my recommendations:
+1. Creating marketing and promotional material in the spring/summer months and weekend deals.
+1. Implementing seasonal or semi-annual memberships to target peak times when casual riders use the service.
+1. Introducing a loyalty program of some sort rewards riders for time spent riding but only allowing members to enjoy those rewards. 
+1. Partnering with local attractions along the coast to provide value to casual riders and incentivize membership.
