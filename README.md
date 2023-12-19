@@ -48,4 +48,13 @@ To start off the two groups are compared by bike type usage.
 
 ![Pie charts displaying bike type usage between casual riders and members](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20015501.png)
 
+In total members account for almost 60% percent of rides and casual riders just over 40%. Percentages seen on individual pie charts for each bike are representative of total  bike usage. The classic bike is the most used bike of the three options with the electric bike falling behind as a close second. Docked bikes are exclusively used by casual riders although by just a small segment of them, this could be a key detail to consider after further analysis. 
+
+Next let's take a look at trip data distributed by months and days of the week. 
+
 ![Line Graph showing how many trips members and casual riders took throughout the year 2022](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20014643.png)
+
+Overall Cyclistic members are taking more trips than casual riders. Over the course of the year both groups tend to follow the same trend of using the bikes more during the spring and summer months than the fall and winter with peak usage occurring in July.  However, there is an interesting difference in trends between these two groups. Members use the bikes almost twice as often as casual riders during the week, which can be explained by people riding the bikes to and from work. On the weekends casual rider usage increases significantly and member usage drops. 
+
+Now to take a look at trip duration over months and days of the week
+
