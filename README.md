@@ -4,9 +4,9 @@ Course: [Google Data Analytics Capstone: Complete a Case study](https://www.cour
 ## Introduction
 This case study is a part of the Google Data Analytics Professional Certificate. In this project I will be assuming the role of a junior data analyst on the marketing team of a fictional company called Cyclistic. In order to address the business questions assigned to me I will be employing the steps of the data analysis process Ask, Prepare, Process, Analyze, Share, and Act) to put together and share my insights. 
 ### Code and Data Links
-Data Source:
+Data Source: [divvy_tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html) Accessed on 11/29/23
 
-Data License:
+Data License: [License](https://divvybikes.com/data-license-agreement)
 
 SQL Queries:
 
