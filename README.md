@@ -29,4 +29,6 @@ I will be using Cyclistic’s historical trip data to analyze trends between the
 ## Process 
 Big query is my tool of choice for cleaning and combining the datasets for two reasons. The first being that excel can only manage just over one million rows of data and the data I am working with has over 5.6 million rows. Secondly, big query and sql in general is more efficient at dealing with large sets of data. However, before importing the data into big query I added two columns for the month and day of each trip respectively named ‘month’ and ‘rental_day’. 
 ### Data combining 
-The 12 csv files are loaded as tables into a dataset called cyclistic_2022 and another table named “annual_data” which will house all 12 csv files adding up to 5,667,717 rows of data. 
+SQL Query: [Data Combining](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Combining.sql)
+The 12 csv files are loaded as tables into a dataset called cyclistic_2022 and another table named “annual_data” which will house all 12 csv files adding up to 5,667,717 rows of data. After combining the data checked the table schema to ensure there were no discrepancies with column naming conventions or file types. 
+![Field names and data types for the combined table called annual_data]("C:\Users\The Backyardigan\Pictures\Screenshots\Screenshot 2023-12-14 002041.png")
