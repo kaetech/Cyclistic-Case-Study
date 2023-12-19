@@ -7,6 +7,7 @@ This case study is a part of the Google Data Analytics Professional Certificate.
 Data Source:
 Data License:
 SQL Queries:
+[Data Combining](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Combining.sql)
 Data Visualizations:
 ## Background and Scenario 
 Cyclistic is a Chicago based bike share program that offers over 5,800 bicycles and 600 docking stations. What sets Cyclistic apart from its competitors is their inclusive variety of bikes for those unable to use a standard two-wheeled bike. This line includes reclining bikes, hand tricycles, and cargo bikes. However, the majority of users make use of our traditional bikes roughly 8% of users opt for the assistive options and about 30 percent of our total users use our bikes to commute to work daily. 
