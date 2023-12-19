@@ -40,6 +40,9 @@ The 12 csv files are loaded as tables into a dataset called cyclistic_2022 and a
 ![Field names and data types for the combined table called annual_data](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20002041.png)
 
 ### Data Cleaning
-SQL Query: [Data Cleaning](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql)
-#### Observations 
-Upon preview of the data I immediately noticed that there were numerous null values in multiple columns. I ran a query to delete all rows wiht nulls and ran another query to chech for nulls in case something was missed. This step removed 1,298,357 rows. I then checked to ensure accuracy of rows in the rideable_type column to cofirm there were only three rideable types and the member_casual column to confirm only two types of members. Next I added a column for ride length which allows for a more thoroguh analysis and removal of trips that lasted less than one minute or more than a day. This step removed 44,797 rows for a total of 1,343,154 rows removed as a result of the cleaning process. 
+SQL Query: [Data Cleaning](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Cleaning.sql) 
+Upon preview of the data I immediately noticed that there were numerous null values in multiple columns. I ran a query to delete all rows wiht nulls and ran another query to chech for nulls in case something was missed. This step removed 1,298,357 rows. I then checked to ensure accuracy of rows in the rideable_type column to cofirm there were only three rideable types and the member_casual column to confirm only two types of members. Next I added a column for ride length which allows for a more thoroguh analysis and removal of trips that lasted less than one minute or more than a day. This step removed 44,797 rows for a total of 1,343,154 rows removed as a result of the cleaning process. Columns for start and end station id were also removed as they were not deemed necessary for analysis. 
+## Analyze and Share
+####Analysis question: How do annual members and casual riders use Cyclistic bikes differently?
+To start off the two groups are compared by bike type usage. 
+![Pie charts displaying bike type usage between casual riders and members]
