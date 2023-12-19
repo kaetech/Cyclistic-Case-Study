@@ -31,4 +31,5 @@ Big query is my tool of choice for cleaning and combining the datasets for two r
 ### Data combining 
 SQL Query: [Data Combining](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/Data%20Combining.sql)
 The 12 csv files are loaded as tables into a dataset called cyclistic_2022 and another table named “annual_data” which will house all 12 csv files adding up to 5,667,717 rows of data. After combining the data checked the table schema to ensure there were no discrepancies with column naming conventions or file types. 
+
 ![Field names and data types for the combined table called annual_data](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20002041.png)
