@@ -56,5 +56,10 @@ Next let's take a look at trip data distributed by months and days of the week.
 
 Overall Cyclistic members are taking more trips than casual riders. Over the course of the year both groups tend to follow the same trend of using the bikes more during the spring and summer months than the fall and winter with peak usage occurring in July.  However, there is an interesting difference in trends between these two groups. Members use the bikes almost twice as often as casual riders during the week, which can be explained by people riding the bikes to and from work. On the weekends casual rider usage increases significantly and member usage drops. 
 
-Now to take a look at trip duration over months and days of the week
+Now to take a look at trip duration over months and days of the week.
 
+![Trip duration over months and days of the week](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20014616.png)
+
+Interestingly enough we see that casual riders spend significantly more time on trips than members. With peak ride averages in the spring months and weekends. Which would suggest a trend of casual riders using the bikes for leisurely purposes in their spare time. Member usage is fairly consistent across the board with slightly longer trips in the summer months and on the weekends but only by a few minutes. Suggesting that members are more intentional and have some sort of routine with their rides which tracks with the other data that we have come across so far. 
+
+Lastly the locations of starting and ending stations and how frequently they are used will be analyzed for key differences.
