@@ -62,7 +62,7 @@ Now to take a look at trip duration over months and days of the week.
 
 ![Trip duration over months and days of the week](https://github.com/kaetech/Cyclistic-Case-Study/blob/main/images/Screenshot%202023-12-14%20014616.png)
 
-Interestingly enough we see that casual riders spend significantly more time on trips than members. With peak ride averages in the spring months and weekends. Which would suggest a trend of casual riders using the bikes for leisurely purposes in their spare time. Member usage is fairly consistent across the board with slightly longer trips in the summer months and on the weekends but only by a few minutes. Suggesting that members are more intentional and have some sort of routine with their rides which tracks with the other data that we have come across so far. 
+Interestingly enough we see that casual riders spend significantly more time on trips than members. With peak rides averaging in the spring months and weekends, which would suggest a trend of casual riders using the bikes for leisurely purposes in their spare time. Member usage is fairly consistent across the board with slightly longer trips in the summer months and on the weekends but only by a few minutes. Suggesting that members are more intentional and have some sort of routine with their rides which tracks with the other data that we have come across so far. 
 
 Lastly the locations of starting and ending stations and how frequently they are used will be analyzed for key differences.
 
