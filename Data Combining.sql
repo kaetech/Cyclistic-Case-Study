@@ -23,6 +23,7 @@ UNION ALL
  SELECT * FROM `halogen-chemist-405717.cyclistic_2022.202211`
 UNION ALL
  SELECT * FROM `halogen-chemist-405717.cyclistic_2022.202212`)
+   
 --counting number of rows which is 5,667,717
 SELECT COUNT(*)
 FROM `halogen-chemist-405717.cyclistic_2022.annual_data`
